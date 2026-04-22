@@ -1408,7 +1408,7 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Burnage",
             "abbr": "Burnage",
-            "electoral_votes": 1,
+            "electoral_votes": 0,
             "popular_votes": 6097, //12808
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
@@ -1422,7 +1422,7 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Levenshulme",
             "abbr": "Levenshulme",
-            "electoral_votes": 1,
+            "electoral_votes": 0,
             "popular_votes": 5614, //11795
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
@@ -1436,7 +1436,7 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Longsight",
             "abbr": "Longsight",
-            "electoral_votes": 1,
+            "electoral_votes": 0,
             "popular_votes": 5522, //11600
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
@@ -1450,7 +1450,7 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Denton West",
             "abbr": "Denton_West",
-            "electoral_votes": 1,
+            "electoral_votes": 0,
             "popular_votes": 4433, //9312
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
@@ -1464,7 +1464,7 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Denton North East",
             "abbr": "Denton_North_East",
-            "electoral_votes": 1,
+            "electoral_votes": 0,
             "popular_votes": 4016, //8438
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
@@ -1478,7 +1478,7 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Gorton and Abbey Hey",
             "abbr": "Gorton_and_Abbey_Hey",
-            "electoral_votes": 1,
+            "electoral_votes": 0,
             "popular_votes": 5665, //11902
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
@@ -1492,7 +1492,7 @@ campaignTrail_temp.states_json = [
         "fields": {
             "name": "Denton South",
             "abbr": "Denton_South",
-            "electoral_votes": 1,
+            "electoral_votes": 0,
             "popular_votes": 4022, //8451
             "poll_closing_time": 120,
             "winner_take_all_flg": 1,
@@ -14913,7 +14913,7 @@ e.multiple_endings = true;
 e.global_parameter_json[0].fields.global_variance=0
 
 //Rename candidates when the game starts for the end screen.
-if(stogia = 1){
+if(stogia == 1){
 e.candidate_json[0].fields.first_name="Angeliki Stogia -";
 e.candidate_json[0].fields.last_name="Labour";
 }
