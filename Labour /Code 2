@@ -15099,11 +15099,11 @@ if(ans == 2101 || ans == 2103 || ans == 3201 || ans == 4101 || ans == 4102 || an
 //Stogia reset - Reset Labour's debate strength if Stogia is the candidate
 if(ans == 2102 || ans == 3103 || ans == 4301 || ans == 4302 || ans == 4303) {LabDebate = 0}
 
-//Reform UK's debate strength - Goodwin maxes out at 6.
-if(ans == 3204 || ans == 5201 || ans == 6102 || ans == 6103 || ans == 6104 || ans == 7103 || ans == 8103 || ans == 13103) {ReformDebate +=1}
+//Reform UK's debate strength - Goodwin maxes out at 8.
+if(ans == 1104 || ans == 3204 || ans == 5201 || ans == 6102 || ans == 6103 || ans == 6104 || ans == 7103 || ans == 8103 || ans == 9102 || ans == 13103) {ReformDebate +=1}
 
-//Green Party's debate strength - Spencer maxes out at 6.
-if(ans == 3203 || ans == 5202 || ans == 9101 || ans == 10103 || ans == 12101 || ans == 12201 || ans == 15101 || ans == 15104) {GreenDebate +=1}
+//Green Party's debate strength - Spencer maxes out at 8.
+if(ans == 1104 || ans == 3203 || ans == 5202 || ans == 6103 || ans == 9101 || ans == 10103 || ans == 12101 || ans == 12201 || ans == 15101 || ans == 15104) {GreenDebate +=1}
 
 function applyStogia() {
 		//Turns Burnham into Stogia/???
