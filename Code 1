@@ -516,5 +516,9 @@ credits = function() {
   }
   alert(text)
 }
+HistHexcolour=["#02a95b","#12b6cf","#e4003b","#0087dc","#faa61a","#ffff00","#002855","#003399","#FCC820","#D25469","#C71585"];
+HistName=["Hannah Spencer - Green Party","Matt Goodwin - Reform UK","Angeliki Stogia - Labour","Charlotte Cadden - Conservatives", "Jackie Pearcey - Liberal Democrats", "Sir Oink a-Lot - Monster Raving Loony Party", "Nick Buckley - Advance UK", "Joseph O'Meachair - Rejoin EU", "Dan Clarke - Libertarian", "Sebastian Moore - Social Democratic Party", "Hugo Wils - Communist League"];
+HistPV=["14,980","10,578","9,364","706","653","159","154","98","47","46","29"];
+HistPVP=["40.7%","28.7%","25.4%","1.9%","1.8%","0.4%","0.4%","0.3%","0.1%","0.1%","0.1%"];
 
 //#endcode
