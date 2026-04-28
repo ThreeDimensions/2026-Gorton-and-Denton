@@ -14865,7 +14865,7 @@ endingConstructor = (a = 1) => {
             "Champagne Supernova",
             "Oasis",
             "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Champagne%20supernova.png",
-            "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Oasis%20-%20Champagne%20Supernova%20(Official%20Video).mp3"
+            "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Champagne%20Supernova%20(Remastered).mp3"
         );
         playlist.addSong(song);
         changePlaylist(playlist);
