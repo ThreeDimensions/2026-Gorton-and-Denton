@@ -1265,7 +1265,7 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 23204,
+        "pk": 23404,
         "fields": {
             "question": 23200,
             "description": "Angela Rayner! The stamp duty scandal is long in the past and she’s still seen as a working class hero within the party. She also represents the neighbouring Ashton-under-Lyne constituency. I’m sure she will be happy to attend."
@@ -4252,7 +4252,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4101,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.16
+            "global_multiplier": 0.11
         }
     },
 	    {
@@ -4262,7 +4262,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4101,
             "candidate": 1,
             "affected_candidate": 2,
-            "global_multiplier": -0.04
+            "global_multiplier": -0.06
         }
     },
 	    {
@@ -4272,7 +4272,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4101,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": -0.19
+            "global_multiplier": -0.24
         }
     },
 	    {
@@ -4332,7 +4332,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4102,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.13
+            "global_multiplier": 0.08
         }
     },
 	    {
@@ -4342,7 +4342,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4102,
             "candidate": 1,
             "affected_candidate": 2,
-            "global_multiplier": -0.03
+            "global_multiplier": 0.01
         }
     },
 	    {
@@ -4352,7 +4352,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4102,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": -0.18
+            "global_multiplier": -0.03
         }
     },
 	    {
@@ -4402,7 +4402,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4103,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.14
+            "global_multiplier": 0.09
         }
     },
 	    {
@@ -4952,7 +4952,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5101,
             "candidate": 1,
             "affected_candidate": 2,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.03
         }
     },
 	    {
@@ -4962,17 +4962,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5101,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": 0.02
-        }
-    },
-	    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3086,
-        "fields": {
-            "answer": 5101,
-            "candidate": 1,
-            "affected_candidate": 1,
-            "global_multiplier": -0.01
+            "global_multiplier": 0.07
         }
     },
 	    {
@@ -5002,7 +4992,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5102,
             "candidate": 1,
             "affected_candidate": 2,
-            "global_multiplier": 0.01
+            "global_multiplier": 0.02
         }
     },
 	    {
@@ -5012,7 +5002,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5102,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.05
         }
     },
 	    {
@@ -5052,7 +5042,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5103,
             "candidate": 1,
             "affected_candidate": 2,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.07
         }
     },
 	    {
@@ -5062,7 +5052,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5103,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.14
         }
     },
 	    {
@@ -5162,7 +5152,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 5104,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.06
         }
     },
 	    {
@@ -6942,7 +6932,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12101,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.0
         }
     },
 	    {
@@ -7002,7 +6992,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12102,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.0
         }
     },
 	    {
@@ -7072,7 +7062,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12103,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.01
         }
     },
 	    {
@@ -7142,7 +7132,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 12104,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.02
+            "global_multiplier": 0.0
         }
     },
 	    {
@@ -7642,7 +7632,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 14101,
             "candidate": 1,
             "affected_candidate": 2,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.03
         }
     },
 	    {
@@ -7652,7 +7642,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 14101,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": 0.04
+            "global_multiplier": 0.1
         }
     },
 	    {
@@ -7742,7 +7732,17 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 14103,
             "candidate": 1,
             "affected_candidate": 2,
-            "global_multiplier": 0.03
+            "global_multiplier": 0.07
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
+            "answer": 14103,
+            "candidate": 1,
+            "affected_candidate": 3,
+            "global_multiplier": -0.05
         }
     },
 	    {
@@ -8452,7 +8452,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 18101,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.02
+            "global_multiplier": -0.02
         }
     },
 	    {
@@ -8552,7 +8552,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 18102,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.02
+            "global_multiplier": -0.02
         }
     },
 	    {
@@ -8642,7 +8642,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 18103,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.02
+            "global_multiplier": -0.02
         }
     },
 	    {
@@ -8742,7 +8742,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 18104,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.03
+            "global_multiplier": -0.01
         }
     },
 	    {
@@ -9092,7 +9092,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 19101,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.02
+            "global_multiplier": -0.01
         }
     },
 	    {
@@ -9142,7 +9142,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 19102,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.02
         }
     },
 	    {
@@ -9172,7 +9172,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 19103,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.02
         }
     },
 	    {
@@ -9202,7 +9202,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 19104,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.02
         }
     },
 	    {
@@ -9381,8 +9381,28 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 20101,
             "candidate": 1,
+            "affected_candidate": 1,
+            "global_multiplier": -0.03
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
+            "answer": 20101,
+            "candidate": 1,
             "affected_candidate": 3,
             "global_multiplier": 0.01
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
+            "answer": 20102,
+            "candidate": 1,
+            "affected_candidate": 1,
+            "global_multiplier": -0.03
         }
     },
 	    {
@@ -9412,7 +9432,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 20103,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": 0.01
+            "global_multiplier": -0.02
         }
     },
 	    {
@@ -9433,6 +9453,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1,
             "affected_candidate": 7,
             "global_multiplier": -0.01
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
+            "answer": 20104,
+            "candidate": 1,
+            "affected_candidate": 1,
+            "global_multiplier": -0.03
         }
     },
 	    {
@@ -10832,7 +10862,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23301,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": -0.06
+            "global_multiplier": -0.11
         }
     },
 	    {
@@ -10942,7 +10972,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23302,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": -0.05
+            "global_multiplier": -0.09
         }
     },
 	    {
@@ -11043,6 +11073,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1,
             "affected_candidate": 11,
             "global_multiplier": 0.03
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
+            "answer": 23401,
+            "candidate": 1,
+            "affected_candidate": 1,
+            "global_multiplier": -0.02
         }
     },
 	    {
@@ -11082,7 +11122,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 23402,
             "candidate": 1,
             "affected_candidate": 1,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.03
         }
     },
 	    {
@@ -11179,6 +11219,16 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
+            "answer": 23401,
+            "candidate": 1,
+            "affected_candidate": 1,
+            "global_multiplier": -0.02
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
             "answer": 23403,
             "candidate": 1,
             "affected_candidate": 2,
@@ -11213,16 +11263,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 1,
             "affected_candidate": 1,
             "global_multiplier": -0.01
-        }
-    },
-	    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 3086,
-        "fields": {
-            "answer": 23404,
-            "candidate": 1,
-            "affected_candidate": 1,
-            "global_multiplier": 0.01
         }
     },
 	    {
@@ -11552,7 +11592,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25101,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": -0.02
+            "global_multiplier": 0.08
         }
     },
 	    {
@@ -11662,7 +11702,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25102,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": -0.02
+            "global_multiplier": 0.08
         }
     },
 	    {
@@ -11772,7 +11812,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25103,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": -0.04
+            "global_multiplier": 0.08
         }
     },
 	    {
@@ -11882,7 +11922,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 25104,
             "candidate": 1,
             "affected_candidate": 3,
-            "global_multiplier": -0.02
+            "global_multiplier": 0.08
         }
     },
 	    {
@@ -14990,8 +15030,9 @@ if (ans == 3201) {starmer +=1}
 if (ans == 3202) {starmer +=1}
 if (ans == 3203) {starmer -=1}
 if (ans == 3204) {starmer +=1}
-if (ans == 4101) {starmer -=1}
-if (ans == 4102) {starmer +=2}
+if (ans == 4101) {starmer -=9} //Emphasise cult of personality, larger penalty
+if (ans == 4102) {starmer -=5} //Reassure Starmer, penalty reduced
+if (ans == 4102) {starmer -=7} //Run a standard party campaign, medium penalty
 if (ans == 4201) {starmer +=2}
 if (ans == 4301) {starmer +=6} //Burnham is blocked, but gives a conciliatory tone.
 if (ans == 4302) {starmer +=4} //Burnham is blocked, says little more.
@@ -15062,16 +15103,16 @@ if (ans == 22103) {starmer -=1}
 //WPB support - Often runs in contrary to Labour Party support
 if (ans == 1103) {WPB +=1}
 if (ans == 2101) {WPB -=1}
-if (ans == 2102) {WPB -=3} //Burnham out, WPB less willing to support Stogia
+if (ans == 2102) {WPB -=5} //Burnham out, WPB less willing to support Stogia
 if (ans == 2103) {WPB +=1}
-if (ans == 3103) {WPB -=3} //Burnham out, WPB less willing to support Stogia
+if (ans == 3103) {WPB -=5} //Burnham out, WPB less willing to support Stogia
 if (ans == 3203) {WPB +=1}
 if (ans == 4101) {WPB +=1}
 if (ans == 4102) {WPB -=2}
 if (ans == 4201) {WPB -=1}
-if (ans == 4301) {WPB -=4} //Concilatory exit especially not received well by WPB
-if (ans == 4302) {WPB -=3} //Burnham out, WPB less willing to support Stogia
-if (ans == 4303) {WPB -=1} //Defiant exit reduces fallout with WPB
+if (ans == 4301) {WPB -=7} //Concilatory exit especially not received well by WPB
+if (ans == 4302) {WPB -=5} //Burnham out, WPB less willing to support Stogia
+if (ans == 4303) {WPB -=3} //Defiant exit reduces fallout with WPB
 if (ans == 5101) {WPB -=1}
 if (ans == 5103) {WPB -=2}
 if (ans == 5104) {WPB +=2}
@@ -15087,8 +15128,9 @@ if (ans == 9102) {WPB -=1}
 if (ans == 9103) {WPB -=1}
 if (ans == 9104) {WPB +=1}
 if (ans == 10102) {WPB +=5} //From the river to the sea!
-if (ans == 10103) {WPB -=5}
+if (ans == 10103) {WPB -=5} //They REALLY don't like this!
 
+//Log variables in console for testing
 console.log ("starmer", starmer, "| WPB", WPB, "| LabDebate", LabDebate, "| ReformDebate", ReformDebate, "| GreenDebate", GreenDebate, "| stogia", stogia);
 
 //Debate Strength Variables - Depending on salience of issues, affects the debate strength of candidates. If a candidate has at least 4, they are eligible for winning the debate. If no candidates have at least 4, or multiple candidates tie in debate strength, the debate concludes without a clear winner.
@@ -15286,7 +15328,7 @@ else{
                 }
               }
 }
-if(ReformPolling >= 0.35){
+if(ReformPolling >= 0.3){
         //Strong Reform UK polling check - Makes tactical vote organisations more likely to back Labour as the "safe option".
 if(LabourPolling + 0.05 > GreenPolling){
         //In the event of Reform polling strongly, Labour will be endorsed with as much of a 5-point deficit on the Greens.
@@ -15313,7 +15355,7 @@ else{
               }
 } 
 }
-if(ReformPolling < 0.35){
+if(ReformPolling < 0.3){
         //Weak Reform UK polling check - No bonus to Labour's chances, pure meritocracy.
 if(LabourPolling > GreenPolling){
         //In the event of Reform polling weakly, there is no bonus for Labour.
@@ -15382,7 +15424,7 @@ if(starmer >= 10){
                 }
               }
 }
-else if(starmer >= -10){
+else if(starmer >= -5){
         //Check for the Government's level of support - Starmer indifferent
 	campaignTrail_temp.questions_json[22] = {
                 "model": "campaign_trail.question",
@@ -15394,8 +15436,8 @@ else if(starmer >= -10){
                 }
               }
 }
-else if(stogia = 0){
-        //Check for the Government's level of support - Starmer no likey (Burnham)
+else if(starmer <= -10 && stogia == 0){
+        //Check for the Government's level of support - Starmer Crisis (only possible with Burnham)
 	campaignTrail_temp.questions_json[22] = {
                 "model": "campaign_trail.question",
                 "pk": 23300,
@@ -15407,7 +15449,7 @@ else if(stogia = 0){
               }
 }
 else{
-        //Check for the Government's level of support - Starmer no likey (Stogia)
+        //Check for the Government's level of support - Starmer no likey (Possible with Burnham and Stogia)
 	campaignTrail_temp.questions_json[22] = {
                 "model": "campaign_trail.question",
                 "pk": 23400,
@@ -15458,7 +15500,7 @@ if(LabDebate >= 4 || ReformDebate >= 4 || GreenDebate >= 4){
               }
 }
 	else{
-        //No debate winner (tied candidates eligible - no cleat winner)
+        //No debate winner (tied candidates eligible - no clear winner)
 	campaignTrail_temp.questions_json[20] = {
                 "model": "campaign_trail.question",
                 "pk": 21100,
