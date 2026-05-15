@@ -507,7 +507,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 10201,
         "fields": {
-            "question": 10100,
+            "question": 10200,
             "description": "Regardless of where I was born, I know Manchester, I’ve studied here, at the University of Manchester, my dad worked as Chief Executive of the Greater Manchester Strategic Health Authority. I believe I have the know-how to represent Gorton and Denton."
         }
     },
@@ -515,7 +515,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 10202,
         "fields": {
-            "question": 10100,
+            "question": 10200,
             "description": "I understand the concerns, and if I win, I’ll promise to move my residence to the Gorton and Denton constituency. I may have some connections with Manchester, having studied at the University of Manchester, but if you don’t believe that’s enough to faithfully represent the constituency, I’ll make the move up here."
         }
     },
@@ -523,7 +523,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 10203,
         "fields": {
-            "question": 10100,
+            "question": 10200,
             "description": "There are MPs all over the country that aren’t from the constituency they represent, why single <i>me</i> out? I’m not going to play these games. I’m not going to acknowledge it. My job will be to represent the people of Gorton and Denton and that’s that. Let’s stay focused on the issues instead of petty nonsense."
         }
     },
@@ -531,7 +531,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 10204,
         "fields": {
-            "question": 10100,
+            "question": 10200,
             "description": "Look, I know the Manchester area. When I studied at the University of Salford, I used to deliver pizzas to customers, some of whom lived in this constituency. My credibility is that I'm not a political insider. I’m coming to Parliament to shake things up."
         }
     },
