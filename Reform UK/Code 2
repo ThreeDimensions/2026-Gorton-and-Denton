@@ -17744,7 +17744,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 22103,
             "candidate": 2,
-            "answer_feedback": "A colleague in the party did say that, yes. They’re also not running for this by-election. You <i<are.</i> You’ve got much higher standards you have to stand up to, because Matt, you might have just lost the by-election."
+            "answer_feedback": "A colleague in the party did say that, yes. They’re also not running for this by-election. You <i>are.</i> You’ve got much higher standards you have to stand up to, because Matt, you might have just lost the by-election."
         }
     },
 	{
