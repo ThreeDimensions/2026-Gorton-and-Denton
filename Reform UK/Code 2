@@ -17328,6 +17328,42 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 2620,
         "fields": {
+            "answer": 14201,
+            "candidate": 2,
+            "answer_feedback": "If anything, you and the Green Party’s Hannah Spencer are definitely the more prolific candidates in this race. Whether you can count the Labour party out for good is a different question. Unexpected by your position on Gaza, George Galloway gives some kind words about you."
+        }
+    },
+	{
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2620,
+        "fields": {
+            "answer": 14202,
+            "candidate": 2,
+            "answer_feedback": "This approach went a long way to Reform UK winning in Runcorn and Helsby last year. However, the more multicultural student-heavy areas of this constituency are frustratingly more receptive to this destructive gender ideology. Unexpected by your position on Gaza, George Galloway gives some kind words about you."
+        }
+    },
+	{
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2620,
+        "fields": {
+            "answer": 14203,
+            "candidate": 2,
+            "answer_feedback": "Immigration is the red meat issue for our party, and this approach will be sure to galvanise turnout in Denton. However, it’s going to be less effective in the more multicultural areas in the west of the constituency. As well, you’re going to get accused of politicising a tragedy. Unexpected by your position on Gaza, George Galloway gives some kind words about you."
+        }
+    },
+	{
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2620,
+        "fields": {
+            "answer": 14204,
+            "candidate": 2,
+            "answer_feedback": "An all-around acceptable message to run on, avoiding many of the party’s controversies in favour of a broad anti-Starmer message. Perhaps this is what you need, though it won’t do as much to attract media attention, for better or worse. Unexpected by your position on Gaza, George Galloway gives some kind words about you."
+		}
+	},
+	{
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2620,
+        "fields": {
             "answer": 15101,
             "candidate": 2,
             "answer_feedback": "Whilst it’s expected that the Greens have a lower ceiling, it’s not impossible for them to win. This is a risky strategy, but if your intention is to split Labour’s vote, I’m not one to disagree with it."
