@@ -16842,6 +16842,15 @@ campaignTrail_temp.answer_feedback_json = [
         "model": "campaign_trail.answer_feedback",
         "pk": 2620,
         "fields": {
+            "answer": 4104,
+            "candidate": 2,
+            "answer_feedback": "Tax cuts are always popular to talk about. That’s a good way to redirect the conversation in your favour."
+        }
+    },
+	{
+        "model": "campaign_trail.answer_feedback",
+        "pk": 2620,
+        "fields": {
             "answer": 5101,
             "candidate": 2,
             "answer_feedback": "You’re fanning the flames of anger against Labour’s open borders agenda. You’re galvanising turnout for us, but you’re likely not going to reach new demographics through this."
