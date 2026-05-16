@@ -1259,7 +1259,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 24301,
         "fields": {
-            "question": 24200,
+            "question": 24300,
             "description": "If this is true, this is bad news. Real bad news. I was hoping that moderation would be the path to success, but if our coalition is fracturing, we have to bring a harder line stance on some issues that keeps them from bolting altogether. We will amp up our immigration message in the closing days."
         }
     },
@@ -1267,7 +1267,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 24302,
         "fields": {
-            "question": 24200,
+            "question": 24300,
             "description": "Is the situation as bad as you suggest? If so, we’ve got to do something, since it’s now clear our attempts at moderation are failing and the base is falling out from beneath us. Rupert Lowe’s endorsement of Advance UK is a disaster. We’ll increase our focus on the culture war in the closing days. That should bring back the base behind us."
         }
     },
@@ -1275,7 +1275,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 24303,
         "fields": {
-            "question": 24200,
+            "question": 24300,
             "description": "It’s best we don’t jump the gun. They’ll come home on election day and vote Reform UK. Trying to chase every Tom, Dick and Harry, as I said, will upend our strategy of winning over the larger number of moderates who don’t want the radical progressivism that the Labour and Greens promise. The safe play is to stay moderate and not flinch."
         }
     },
@@ -1283,7 +1283,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 24304,
         "fields": {
-            "question": 24200,
+            "question": 24300,
             "description": "Nick Buckley, seriously? He’s got <i>no</i> chance! In this political system, there is only one way to stop the woke progressive agenda from winning this seat, and that is Reform UK. You can only ensure a representative who knows what a woman is by voting for Reform UK. A vote for Advance is a vote for Labour or the Greens."
         }
     },
