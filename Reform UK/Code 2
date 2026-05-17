@@ -1291,7 +1291,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 24401,
         "fields": {
-            "question": 24200,
+            "question": 24400,
             "description": "Shit, shit. If this is the case, it’s <i>really</i> bad. We have to emphasise a synthesis of positions that appeal to both sides. Supporting our small local businesses will help bring back the Conservatives, a strong stance against illegal migration will help bring back the Advance UK defectors."
         }
     },
@@ -1299,7 +1299,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 24402,
         "fields": {
-            "question": 24200,
+            "question": 24400,
             "description": "We need all hands on deck. Push the campaign into overdrive. Get any big Reform figures on board that you can. Zia Yusuf, Sara Pochin, Lee Anderson, Robert Jenrick, Richard Tice, Nigel, of course. We need a big event and all our troops on the front line. What are we waiting for?"
         }
     },
@@ -1307,7 +1307,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 24403,
         "fields": {
-            "question": 24200,
+            "question": 24400,
             "description": "All you can do is stay on track. We could be facing a bad outcome, but it could be even worse if we make a panicked pivot in the closing days of the campaign. We have to maintain consistency."
         }
     },
@@ -1315,7 +1315,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 24404,
         "fields": {
-            "question": 24200,
+            "question": 24400,
             "description": "What is wrong with them, are they <i>trying</i> to lose? We are their only chance at getting a candidate they’d support elected. The Tories, Advance UK? Worthless, futile, can’t win here, what are they polling at? Single digits? Forget it. Vote Reform, or get the woke progressivism of the Labour or Green Party. Simple as, no other options."
         }
     },
