@@ -1153,7 +1153,7 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 22102,
+        "pk": 22103,
         "fields": {
             "question": 22100,
             "description": "The investigations must take their course and Mandelson has a duty to disclose everything he knows in order for the wider investigation into Epstein to conclude with complete transparency."
@@ -14956,13 +14956,24 @@ endingConstructor = (a = 1) => {
 e.multiple_endings = true;
 
 //Disable RNG (for testing)
-e.global_parameter_json[0].fields.global_variance=0
+//e.global_parameter_json[0].fields.global_variance=0
 
 //Rename candidates when the game starts for the end screen.
 if(stogia == 1){
 e.candidate_json[0].fields.first_name="Angeliki Stogia -";
 }
 else if(stogia == 0){
+e.candidate_json[0].fields.first_name="Andy Burnham -";
+}
+
+if(galloway == 1){
+e.candidate_json[4].fields.first_name="George Galloway -";
+e.candidate_json[4].fields.last_name="Workers' Party of Britain";
+
+e.candidate_json[14].fields.first_name="Hannah Spencer -";
+e.candidate_json[14].fields.last_name="Green Party";
+}
+else if(galloway == 0){
 e.candidate_json[0].fields.first_name="Andy Burnham -";
 }
 
@@ -15032,7 +15043,7 @@ if (ans == 3203) {starmer -=1}
 if (ans == 3204) {starmer +=1}
 if (ans == 4101) {starmer -=9} //Emphasise cult of personality, larger penalty
 if (ans == 4102) {starmer -=5} //Reassure Starmer, penalty reduced
-if (ans == 4102) {starmer -=7} //Run a standard party campaign, medium penalty
+if (ans == 4103) {starmer -=7} //Run a standard party campaign, medium penalty
 if (ans == 4201) {starmer +=2}
 if (ans == 4301) {starmer +=6} //Burnham is blocked, but gives a conciliatory tone.
 if (ans == 4302) {starmer +=4} //Burnham is blocked, says little more.
@@ -15131,7 +15142,7 @@ if (ans == 10102) {WPB +=5} //From the river to the sea!
 if (ans == 10103) {WPB -=5} //They REALLY don't like this!
 
 //Log variables in console for testing
-console.log ("starmer", starmer, "| WPB", WPB, "| LabDebate", LabDebate, "| ReformDebate", ReformDebate, "| GreenDebate", GreenDebate, "| stogia", stogia);
+//console.log ("starmer", starmer, "| WPB", WPB, "| LabDebate", LabDebate, "| ReformDebate", ReformDebate, "| GreenDebate", GreenDebate, "| stogia", stogia);
 
 //Debate Strength Variables - Depending on salience of issues, affects the debate strength of candidates. If a candidate has at least 4, they are eligible for winning the debate. If no candidates have at least 4, or multiple candidates tie in debate strength, the debate concludes without a clear winner.
 
