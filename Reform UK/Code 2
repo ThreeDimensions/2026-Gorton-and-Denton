@@ -5585,7 +5585,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 1,
             "global_multiplier": -0.03
@@ -5595,7 +5595,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 2,
             "global_multiplier": 0.02
@@ -5605,7 +5605,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 3,
             "global_multiplier": 0.03
@@ -5615,7 +5615,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 5,
             "global_multiplier": 0.01
@@ -5625,7 +5625,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 6,
             "global_multiplier": 0.01
@@ -5635,7 +5635,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 7,
             "global_multiplier": 0.01
@@ -5645,7 +5645,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 9,
             "global_multiplier": -0.02
@@ -5655,7 +5655,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 10,
             "global_multiplier": 0.03
@@ -5665,7 +5665,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 11,
             "global_multiplier": 0.02
@@ -5675,7 +5675,7 @@ campaignTrail_temp.answer_score_global_json = [
         "model": "campaign_trail.answer_score_global",
         "pk": 3086,
         "fields": {
-            "answer": 8103,
+            "answer": 8104,
             "candidate": 2,
             "affected_candidate": 12,
             "global_multiplier": 0.04
@@ -18293,7 +18293,8 @@ endingConstructor = (a = 1) => {
   { 
 	e.header = "<h2>Angeliki Stogia will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>After Burnham was blocked, it was expected that Reform would be the favourite to win the seat, however through a combination of either mistakes on your part, or good strategy by Labour’s new candidate, Labour have managed to defend the seat, with Angeliki Stogia set to become the new MP for the constituency. For the Prime Minister, this is the optimal outcome. Labour defended the seat they won by 50+ points in 2024. He’s not done yet.</p><p>Where do you go from here? You haven’t succeeded at becoming the new MP for Gorton and Denton. Returning to your career in journalism with GB News is one possibility. You’ve also taken interest in writing books. Maybe you can get back to completing that project?</p><p>In the end it’s up to you Matt. However for this by-election, you were rejected for being half the world away.</p>`]
-		if (used != true) {
+	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Stogia%20Win.png";
+	if (used != true) {
 	const playlist = new Playlist();
 	const song = new Song(
             "Half the World Away",
@@ -18312,7 +18313,6 @@ endingConstructor = (a = 1) => {
 	e.header = "<h2>Matt Goodwin will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>After Burnham was blocked, what should have been a safe seat was turned into a competitive race, destined to shape the country for years to come, some even considering the Prime Minister’s career on the line. You said that a victory for Reform is a referendum against the Prime Minister, and now you’ve won, will that follow through? Surely the pressures for his resignation will increase after a right wing victory in Gorton and Denton of all places.</p><p>As for you, you enter Parliament, representing this constituency. You currently don’t live in the constituency, out of the three viable candidates, you’re the only one not local to Manchester. You will likely move your residence to the constituency, and you’ll put your work in Parliament to represent the Reform UK agenda of lowering immigration and knowing what a woman is.</p><p>Your win has put Labour in their place, tell them loud and clear: Oh sit down!</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Matt%20Goodwin%20win.png";
-	e.candidate_json[0].fields.first_name="Andy Burnham -";
 		if (used != true) {
 	const playlist = new Playlist();
 	const song = new Song(
