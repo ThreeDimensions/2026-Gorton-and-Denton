@@ -14966,17 +14966,6 @@ else if(stogia == 0){
 e.candidate_json[0].fields.first_name="Andy Burnham -";
 }
 
-if(galloway == 1){
-e.candidate_json[4].fields.first_name="George Galloway -";
-e.candidate_json[4].fields.last_name="Workers' Party of Britain";
-
-e.candidate_json[14].fields.first_name="Hannah Spencer -";
-e.candidate_json[14].fields.last_name="Green Party";
-}
-else if(galloway == 0){
-e.candidate_json[0].fields.first_name="Andy Burnham -";
-}
-
 e.candidate_json[0].fields.last_name="Labour";
 e.candidate_json[2].fields.first_name="Matt Goodwin -";
 e.candidate_json[2].fields.last_name="Reform UK";
