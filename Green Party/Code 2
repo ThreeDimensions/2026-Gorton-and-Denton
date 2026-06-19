@@ -215,7 +215,7 @@ campaignTrail_temp.questions_json = [
         "pk": 24100,
         "fields": {
             "priority": 24,
-            "description": "<b>25 February:</b>  It is the day before the election and Labour continue to leverage their tactical vote nomination, accusing the Greens/Workers Party of potentially splitting the vote and letting Reform win the seat. What will your response be, do you still think this race is winnable?",
+            "description": "<b>25 February:</b>  It is the day before the election and Labour continue to leverage their tactical vote nomination, accusing the Green Party of potentially splitting the vote and letting Reform win the seat. What will your response be, do you still think this race is winnable?",
             "likelihood": 1
         }
     },
