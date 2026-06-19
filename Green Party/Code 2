@@ -22518,36 +22518,6 @@ else if(TactVote == 2){
               }
 }
 }
-if(TactVote == 0 || TactVote == 1){
-	//Labour tactical vote, playing as Galloway, If Greens drop out as the tactical vote, switch TactVote to 0 (Labour)
-		campaignTrail_temp.questions_json[16] = {
-                "model": "campaign_trail.question",
-                "pk": 17400,
-                "fields": {
-                  "priority": 1,
-                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you and Labour, though the Greens have never won a parliamentary by-election. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
-                  "likelihood": 1
-                }
-              }
-		campaignTrail_temp.questions_json[23] = {
-                "model": "campaign_trail.question",
-                "pk": 24100,
-                "fields": {
-                  "priority": 1,
-                  "description": "<b>25 February:</b> It is the day before the election and Labour continue to leverage their tactical vote nomination, accusing the Workers' Party of potentially splitting the vote and letting Reform win the seat. What will your response be, do you still think this race is winnable?",
-                  "likelihood": 1
-                }
-              }
-		campaignTrail_temp.questions_json[24] = {
-                "model": "campaign_trail.question",
-                "pk": 25400,
-                "fields": {
-                  "priority": 1,
-                  "description": "<b>26 February:</b> It’s the final day of the campaign, and there’s time for one more event before the end of the day. With people now voting, where will you finish your campaign?",
-                  "likelihood": 1
-                }
-              }
-}
 //Other CYOA
 if(YourParty >= 4){
         //Your Party check to determine how supportive Corbyn/Sultana are of you - Your Party endorses
