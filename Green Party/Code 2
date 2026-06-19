@@ -22101,7 +22101,7 @@ console.log ("YourParty", YourParty, "| WPB", WPB, "| GallowayOut", GallowayOut,
 
 //Debate Strength Variables - Depending on salience of issues, affects the debate strength of candidates. If a candidate has at least 4, they are eligible for winning the debate. If no candidates have at least 4, or multiple candidates tie in debate strength, the debate concludes without a clear winner.
 
-if(ans == 16102 || ans == 16303 || ans == 16402 || ans == 16403 || ans == 16502 || ans == 16503 || ans == 17302 || ans == 17303 || ans == 17304) {applyGalloway()} //Spencer ends her campaign (Only possible if Galloway is still in the race when the tactical vote is about to be given, or if not then, immediately after a tactical nomination of Galloway). This makes Galloway playable.
+if(ans == 16302 || ans == 16303 || ans == 16402 || ans == 16403 || ans == 16502 || ans == 16503 || ans == 17302 || ans == 17303 || ans == 17304) {applyGalloway()} //Spencer ends her campaign (Only possible if Galloway is still in the race when the tactical vote is about to be given, or if not then, immediately after a tactical nomination of Galloway). This makes Galloway playable.
 
 if(ans == 16302 || ans == 16303 || ans == 16402 || ans == 16403 || ans == 16502 || ans == 16503 || ans == 17302 || ans == 17303 || ans == 17304) {Galloway = 1}
 
@@ -22276,7 +22276,7 @@ else if(TactVote == 1){
               }			  
 }
 }
-else{
+else if(GallowayOut == 0){
         //Galloway still in, playing as Spencer
 	campaignTrail_temp.questions_json[10] = {
                 "model": "campaign_trail.question",
