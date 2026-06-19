@@ -22330,7 +22330,7 @@ if(TactVote == 0){
                 "pk": 16300,
                 "fields": {
                   "priority": 1,
-                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you, Labour abd the Workers' Party of Britain, though the Greens have never won a parliamentary by-election. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
+                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you, Labour and the Workers' Party of Britain, though the Greens have never won a parliamentary by-election. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
                   "likelihood": 1
                 }
               }
@@ -22359,7 +22359,7 @@ else if(TactVote == 1){
                 "pk": 16400,
                 "fields": {
                   "priority": 1,
-                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you, Labour abd the Workers' Party of Britain, though the Greens have never won a parliamentary by-election. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
+                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you, Labour and the Workers' Party of Britain, though the Greens have never won a parliamentary by-election. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
                   "likelihood": 1
                 }
               }
@@ -22388,7 +22388,7 @@ else if(TactVote == 2){
                 "pk": 16500,
                 "fields": {
                   "priority": 1,
-                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you, Labour abd the Workers' Party of Britain, though the Greens have never won a parliamentary by-election. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
+                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you, Labour and the Workers' Party of Britain, though the Greens have never won a parliamentary by-election. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
                   "likelihood": 1
                 }
               }
