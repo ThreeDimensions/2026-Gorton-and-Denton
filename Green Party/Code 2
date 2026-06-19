@@ -1435,7 +1435,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 22101,
         "fields": {
-            "question": 22100,
+            "question": 22200,
             "description": "Maybe Labour should look in a mirror and ask “Why are Muslims deserting us at a hundred miles per hour?”, why the response from these leaflets is so positive across Gorton and Longsight. It’s not a secret. You abetted a genocide. You contributed to the systemic slaughter of tens of thousands of children in Gaza Mr. Starmer!"
         }
     },
@@ -1443,7 +1443,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 22102,
         "fields": {
-            "question": 22100,
+            "question": 22200,
             "description": "It’s not language that makes someone British. It’s the experience of growing up here that does, and that includes our comrades who grew up speaking a different tongue. Matt Goodwin wants to tell you that you’re not as British as him. I want to say we are all British, even if English wasn’t the first language you learnt. As-salamu alaykum!"
         }
     },
@@ -1451,7 +1451,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 22103,
         "fields": {
-            "question": 22100,
+            "question": 22200,
             "description": "Wait, did I authorise this? Halt the presses before these attacks lose us voters in Denton! I get my campaign team’s intentions, but this, I think it loses more than it gains. Our campaign should stick just to English."
         }
     },
@@ -22097,7 +22097,7 @@ if (ans == 9403) {WPB -=5}
 if (ans == 9404) {WPB -=3}
 
 //Log variables in console for testing
-console.log ("YourParty", YourParty, "| WPB", WPB, "| WPB", WPB, "| LabDebate", LabDebate, "| ReformDebate", ReformDebate, "| GreenDebate", GreenDebate);
+console.log ("YourParty", YourParty, "| WPB", WPB, "| GallowayOut", GallowayOut, "| LabDebate", LabDebate, "| ReformDebate", ReformDebate, "| GreenDebate", GreenDebate);
 
 //Debate Strength Variables - Depending on salience of issues, affects the debate strength of candidates. If a candidate has at least 4, they are eligible for winning the debate. If no candidates have at least 4, or multiple candidates tie in debate strength, the debate concludes without a clear winner.
 
