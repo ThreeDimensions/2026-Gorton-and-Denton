@@ -22464,7 +22464,7 @@ if(TactVote == 0 || TactVote == 1){
                 "pk": 17400,
                 "fields": {
                   "priority": 1,
-                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you and Labour, though the Greens have never won a parliamentary by-election. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
+                  "description": "Tactical vote organisations like tacticalvote.co.uk and stopthetories.vote are yet to declare the tactical option against Reform UK, though it will be between you and Labour. How will your campaign focus on attacking Labour to present yourself as the most reliable option to win this by-election and defeat Reform?",
                   "likelihood": 1
                 }
               }
