@@ -4694,7 +4694,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4101,
             "candidate": 3,
             "affected_candidate": 6,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.04
         }
     },
 	    {
@@ -4705,6 +4705,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 3,
             "affected_candidate": 8,
             "global_multiplier": -0.01
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
+            "answer": 4101,
+            "candidate": 3,
+            "affected_candidate": 9,
+            "global_multiplier": 0.03
         }
     },
 	    {
@@ -4774,7 +4784,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4102,
             "candidate": 3,
             "affected_candidate": 6,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.04
         }
     },
 	    {
@@ -4785,6 +4795,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 3,
             "affected_candidate": 8,
             "global_multiplier": -0.01
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
+            "answer": 4102,
+            "candidate": 3,
+            "affected_candidate": 9,
+            "global_multiplier": 0.03
         }
     },
 	    {
@@ -4854,7 +4874,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 4103,
             "candidate": 3,
             "affected_candidate": 6,
-            "global_multiplier": -0.01
+            "global_multiplier": -0.04
         }
     },
 	    {
@@ -4865,6 +4885,16 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 3,
             "affected_candidate": 8,
             "global_multiplier": -0.01
+        }
+    },
+	    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 3086,
+        "fields": {
+            "answer": 4103,
+            "candidate": 3,
+            "affected_candidate": 9,
+            "global_multiplier": 0.03
         }
     },
 	    {
