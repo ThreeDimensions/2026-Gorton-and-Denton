@@ -14970,23 +14970,6 @@ function ctsAchievement(achievement, difficultyChecker = true){
 		unlockAchievement(achievement);
 	}
 	}
-	/*
-if (aa[0].candidate == 1 && stogia == 0 && campaignTrail_temp.difficulty_level_multiplier <=1) {
-ctsAchievement("Feel the Burn");
-}
-if (aa[0].candidate == 1 && stogia == 1 && campaignTrail_temp.difficulty_level_multiplier <=1) {
-ctsAchievement("Kept the Faith");
-}
-if (aa[0].candidate !== 1 && stogia == 0 && campaignTrail_temp.difficulty_level_multiplier >=1) {
-ctsAchievement("Burn-Out");
-}
-if (LabourPolling >= 0.55 && campaignTrail_temp.difficulty_level_multiplier <=1) {
-ctsAchievement("King of the North");
-}
-if (aa[0].candidate == 1 && ans == 23301 && campaignTrail_temp.difficulty_level_multiplier <=1) {
-ctsAchievement("It's Starmover");
-}
-*/
 
 //Rename candidates when the game starts for the end screen.
 if(stogia == 1){
