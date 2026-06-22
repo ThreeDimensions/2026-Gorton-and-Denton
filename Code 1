@@ -3,7 +3,7 @@ campaignTrail_temp.election_json = [
         "model": "campaign_trail.election",
         "pk": 20,
         "fields": {
-            "year": 2016,
+            "year": 2026,
             "display_year": "2026 Gorton and Denton By-Election",
             "summary": "<p>With Labour MP Andrew Gwynne announcing his resignation from Parliament, a seat in Manchester opens up. Many have been saying that Andy Burnham, the mayor of Greater Manchester will take the opportunity to enter the House of Commons and position himself to become the next Prime Minister.</p>\n<p>With the incumbent Labour Prime Minister Keir Starmer facing rock-bottom polling and the loss of Runcorn and Helsby last year to Reform UK, his position as Prime Minister looks increasingly shaky day after day.</p>\n<p>With the popular Andy Burnham likely to run in this seat, it's looking like a Labour victory is all but guaranteed, but could he face more obstacles than he bargained for?</p>",
             "image_url": "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Gorton%20and%20Denton%20Election%20Image.png",
