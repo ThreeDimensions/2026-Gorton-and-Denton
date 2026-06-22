@@ -18309,7 +18309,7 @@ endingConstructor = (a = 1) => {
   return construct(0);
   }
   else if (aa[0].candidate == 2) //Goodwin wins
-  { 
+  { ctsAchievement("The Revolt");
 	e.header = "<h2>Matt Goodwin will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>After Burnham was blocked, what should have been a safe seat was turned into a competitive race, destined to shape the country for years to come, some even considering the Prime Minister’s career on the line. You said that a victory for Reform is a referendum against the Prime Minister, and now you’ve won, will that follow through? Surely the pressures for his resignation will increase after a right wing victory in Gorton and Denton of all places.</p><p>As for you, you enter Parliament, representing this constituency. You currently don’t live in the constituency, out of the three viable candidates, you’re the only one not local to Manchester. You will likely move your residence to the constituency, and you’ll put your work in Parliament to represent the Reform UK agenda of lowering immigration and knowing what a woman is.</p><p>Your win has put Labour in their place, tell them loud and clear: Oh sit down!</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Matt%20Goodwin%20win.png";
@@ -18368,8 +18368,15 @@ endingConstructor = (a = 1) => {
 }
 e.multiple_endings = true;
 
+  //Achievements
+function ctsAchievement(achievement, difficultyChecker = true){
+		if(campaignTrail_temp.CTS){
+		unlockAchievement(achievement);
+	}
+	}
+
 //Disable RNG (for testing)
-e.global_parameter_json[0].fields.global_variance=0
+//e.global_parameter_json[0].fields.global_variance=0
 
 e.candidate_json[0].fields.first_name="Angeliki Stogia -";
 e.candidate_json[0].fields.last_name="Labour";
@@ -18413,6 +18420,12 @@ campaignTrail_temp.cyoa = true;
 cyoAdventure = function (a) {
 
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
+
+if(ans == 24401 || ans == 24402 || ans == 24403 || ans == 24404){ctsAchievement("Deform UK"); //Reform Implodes
+}
+
+if(ans == 12104){ctsAchievement("MattGPT"); //Write an AI book
+}
 
 //Moderate support
 if (ans == 1102) {tory +=1}
