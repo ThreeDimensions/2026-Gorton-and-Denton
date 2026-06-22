@@ -521,4 +521,88 @@ HistName=["Hannah Spencer - Green Party","Matt Goodwin - Reform UK","Angeliki St
 HistPV=["14,980","10,578","9,364","706","653","159","154","98","47","46","29"];
 HistPVP=["40.7%","28.7%","25.4%","1.9%","1.8%","0.4%","0.4%","0.3%","0.1%","0.1%","0.1%"];
 
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#304942",
+    //"header_image_url": "imageurlhere",
+    "header_text_color": "#ffffff",
+    "description_text_color": "#000000",
+    "description_background_color": "#ffffff",
+    "main_color": "#A5B5C0",
+    "secondary_color": "#4D4D4D",
+    "ui_text_color": "#FFFFFF"
+    }
+
+campaignTrail_temp.achievements = {
+    // Baseline Achievements (All achievements require normal or harder unless specified otherwise)
+    "Feel the Burn" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Feel%20the%20Burn.png",
+    "description" : "Win the election as Andy Burnham",
+    "cannotBeCheated" : true
+    },
+	"Kept the Faith" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Kept%20the%20Faith.png",
+    "description" : "Win the election as Angeliki Stogia",
+    "cannotBeCheated" : true
+    },
+	"Burn-Out" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Burn-Out.png",
+    "description" : "Lose the election as Andy Burnham (normal or easier",
+    "cannotBeCheated" : true
+    },
+	"Cleared to Run" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Cleared%20to%20Run.png",
+    "description" : "As Andy Burnham, get approved by the Labour NEC",
+    "cannotBeCheated" : true
+    },	
+	"King of the North" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/King%20of%20the%20North.png",
+    "description" : "Win as Andy Burnham with over 55% of the vote",
+    "cannotBeCheated" : true
+    },	
+	"It's Starmover" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Starmergeddon.png",
+    "description" : "Win despite Starmer's games",
+    "cannotBeCheated" : true
+    },	
+	"The Revolt" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/The%20Revolt.png",
+    "description" : "Win the election as Matt Goodwin",
+    "cannotBeCheated" : true
+    },	
+	"Deform UK" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Deform%20UK.png",
+    "description" : "Implode as Matt Goodwin",
+    "cannotBeCheated" : true
+    },	
+	"MattGPT" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/MattGPT.png",
+    "description" : "Write an AI book",
+    "cannotBeCheated" : true
+    },	
+	"Make Hope Normal Again" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Make%20Hope%20Normal%20Again.png",
+    "description" : "Win the election as Hannah Spencer",
+    "cannotBeCheated" : true
+    },	
+	"Plumber Supremacy" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Plumber%20Supremacy.png",
+    "description" : "Win the election as Hannah Spencer with more than 40% of the vote",
+    "cannotBeCheated" : true
+    },	
+	"Against the Current" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Against%20the%20Current.png",
+    "description" : "Win the election as Hannah Spencer, despite not being the tactical vote",
+    "cannotBeCheated" : true
+    },	
+	"Transition to Greatness" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Transition%20to%20Greatness.png",
+    "description" : "Transition to greatness",
+    "cannotBeCheated" : true
+    },	
+	"The Workers Unite" : {
+    "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/The%20Workers%20Unite.png",
+    "description" : "Claim victory for the proletariat",
+    "cannotBeCheated" : true
+    }
+}
 //#endcode
