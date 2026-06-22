@@ -14952,12 +14952,27 @@ endingConstructor = (a = 1) => {
   }
   return construct(0);
   }
+  //Achievements
+function ctsAchievement(achievement, difficultyChecker = true){
+		if(campaignTrail_temp.CTS){
+		unlockAchievement(achievement);
+	}
+if (aa[0].candidate == 1 && stogia == 0 && campaignTrail_temp.difficulty_level_multiplier <=1) {
+ctsAchievement("Feel the Burn");
 }
-e.multiple_endings = true;
-
-//Disable RNG (for testing)
-//e.global_parameter_json[0].fields.global_variance=0
-
+if (aa[0].candidate == 1 && stogia == 1 && campaignTrail_temp.difficulty_level_multiplier <=1) {
+ctsAchievement("Kept the Faith");
+}
+if (aa[0].candidate !== 1 && stogia == 0 && campaignTrail_temp.difficulty_level_multiplier >=1) {
+ctsAchievement("Burn-Out");
+}
+if (LabourPolling >= 0.55 && campaignTrail_temp.difficulty_level_multiplier <=1) {
+ctsAchievement("King of the North");
+}
+if (aa[0].candidate == 1 && ans == 23301 && campaignTrail_temp.difficulty_level_multiplier <=1) {
+ctsAchievement("It's Starmover");
+}
+}
 //Rename candidates when the game starts for the end screen.
 if(stogia == 1){
 e.candidate_json[0].fields.first_name="Angeliki Stogia -";
@@ -14965,6 +14980,11 @@ e.candidate_json[0].fields.first_name="Angeliki Stogia -";
 else if(stogia == 0){
 e.candidate_json[0].fields.first_name="Andy Burnham -";
 }
+}
+e.multiple_endings = true;
+
+//Disable RNG (for testing)
+//e.global_parameter_json[0].fields.global_variance=0
 
 e.candidate_json[0].fields.last_name="Labour";
 e.candidate_json[2].fields.first_name="Matt Goodwin -";
