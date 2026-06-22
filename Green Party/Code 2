@@ -22161,7 +22161,15 @@ endingConstructor = (a = 1) => {
   return construct(0);
   }
   else if (aa[0].candidate == 3 && galloway == 0) //Spencer wins (Spencer)
-	  { 
+	  { ctsAchievement("Make Hope Normal Again");
+	  }
+  if (e.current_results[0] >= 0.4) //Get over 40% of the vote
+	{
+	ctsAchievement("Plumber Supremacy"); 
+  if (TactVote !== 1) //Win despite not being the tactical vote
+	{
+	ctsAchievement("Against the Current");
+	}
 	e.header = "<h2>Hannah Spencer will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>After Burnham was blocked, it was expected that this race would become much more competitive, with both you and Matt Goodwin having a chance to vie for the seat, and that’s what happened. You have come through to win the first Green victory in a by-election in history, the Labour party is rattled from losing, Starmer might have one foot out the door.</p><p>You are now the Member of Parliament for Gorton and Denton, giving the Green Party 5 MPs. Go forth Hannah, and fight in Parliament every day against the cost of living crisis. We have faith in you.</p><p>You can hear Zack talking with your campaign team across the room, telling them “She’s a star.”</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Hannah%20Spencer%20win.png";
@@ -22199,7 +22207,7 @@ endingConstructor = (a = 1) => {
   return construct(0);
   }
     else if (aa[0].candidate == 3 && galloway == 1) //Galloway wins (Galloway)
-	  { 
+	  { ctsAchievement("The Workers Unite");
 	e.header = "<h2>George Galloway will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>After Burnham was blocked, it was expected that this race would become much more competitive, with both you and Matt Goodwin having a chance to vie for the seat, especially after the downfall of the Green campaign in the seat. And that, you’ve managed to accomplish, achieving your third ever by-election victory in your political career, after Bradford West in 2012 and Rochdale in 2024.</p><p>Where do you go from here? You’re no stranger to Parliament, this is the fifth seat you’ve held in your career, first as a Labour MP, then under your own Respect Party, and now under your own Workers Party of Britain. You will do it for Gaza and the working men and women of Britain.</p><p>And why are you here today? It’s for Gaza, like it was in 2024. Did they know what you meant?</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Galloway%20Win.png";
@@ -22238,6 +22246,13 @@ endingConstructor = (a = 1) => {
   }
 }
 e.multiple_endings = true;
+
+  //Achievements
+function ctsAchievement(achievement, difficultyChecker = true){
+		if(campaignTrail_temp.CTS){
+		unlockAchievement(achievement);
+	}
+	}
 
 //Disable RNG (for testing)
 e.global_parameter_json[0].fields.global_variance=0
@@ -22286,6 +22301,8 @@ cyoAdventure = function (a) {
 
 ans = campaignTrail_temp.player_answers[campaignTrail_temp.player_answers.length - 1];
 
+if(ans == 16302 || ans == 16303 || ans == 16402 || ans == 16403 || ans == 16502 || ans == 16503 || ans == 17302 || ans == 17303 || ans == 17304){ctsAchievement("Transition to Greatness"); //We're so proud of you.
+}
 //Your Party support
 if (ans == 1101) {YourParty +=1}
 if (ans == 1102) {YourParty +=1}
@@ -22386,36 +22403,36 @@ let ReformPolling = (pop_vote.find(p => p.pk === 2)).pvp
 let GreenPolling = (pop_vote.find(p => p.pk === 3)).pvp
 let WPBPolling = (pop_vote.find(p => p.pk === 12)).pvp
 
-//Tactical vote determination code - Putting this at the top should make it so this gets determined before the tactical vote question is loaded.
+//Tactical vote determination code - Putting this at the top should make it so this gets determined before the tactical vote question is loaded. This gets locked after being decided so it doesn't mess with dependent variables later on.
 if(ReformPolling >= 0.3){
         //Strong Reform UK polling check - Makes tactical vote organisations more likely to back Labour as the "safe option".
-if(LabourPolling + 0.05 > GreenPolling && LabourPolling + 0.05 > WPBPolling){
+if(LabourPolling + 0.05 > GreenPolling && LabourPolling + 0.05 > WPBPolling && ans < 16504){
         //In the event of Reform polling strongly, Labour will be endorsed with as much of a 5-point deficit on the Greens or WPB.
 TactVote = 0
 }
-else if(LabourPolling + 0.05 < GreenPolling){
+else if(LabourPolling + 0.05 < GreenPolling && ans < 16504){
 TactVote = 1
 }
-else if(GallowayOut = 0){
+else if(GallowayOut = 0 && ans < 16504){
 TactVote = 2
 }
-else{
+else if(ans < 16504){
 //Failsafe endorses Labour
 TactVote = 0
 }
 }
 else if(ReformPolling < 0.3){
         //Fail the check, pure meritocracy
-if(LabourPolling > GreenPolling && LabourPolling > WPBPolling){
+if(LabourPolling > GreenPolling && LabourPolling > WPBPolling && ans < 16504){
 TactVote = 0
 }
-else if(LabourPolling < GreenPolling){
+else if(LabourPolling < GreenPolling && ans < 16504){
 TactVote = 1
 }
-else if(GallowayOut = 0){
+else if(GallowayOut = 0 && ans < 16504){
 TactVote = 2
 }
-else{
+else if (ans < 16504){
 //Failsafe endorses Labour
 TactVote = 0
 }
