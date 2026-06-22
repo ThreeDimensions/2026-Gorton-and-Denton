@@ -1267,7 +1267,7 @@ campaignTrail_temp.answers_json = [
         "model": "campaign_trail.answer",
         "pk": 23404,
         "fields": {
-            "question": 23200,
+            "question": 23400,
             "description": "Angela Rayner! The stamp duty scandal is long in the past and she’s still seen as a working class hero within the party. She also represents the neighbouring Ashton-under-Lyne constituency. I’m sure she will be happy to attend."
         }
     },
@@ -14814,7 +14814,8 @@ endingConstructor = (a = 1) => {
   $("#final_results_description")[0].innerHTML = construct(a);
 }
   if (aa[0].candidate == 1 && stogia == 0) //Burnham wins
-  { 
+  {
+	ctsAchievement("Feel the Burn");
 	e.header = "<h2>Andy Burnham will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>Ever since you were given the green light from the Labour Party’s executive council to run, this was the expected outcome, but there were things along the way that could have gone wrong. However, with your confident campaign you’ve kept the campaign on the tracks to win the seat.</p><p>Where do you go from here? Do you keep your word about not challenging the Prime Minister and working with the party, or are your eyes set on entering Number 10 Downing Street? You are at the moment the most popular figure in the Labour party, so should Starmer fall, either from his own volition or you pushing him, you’re automatically the frontrunner to be the next Prime Minister.</p><p>Andy, in the end, it’s all up to you. Do you wish to take over the world?</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Burnham%20Win.png";
@@ -14835,6 +14836,7 @@ endingConstructor = (a = 1) => {
   }
   else if (aa[0].candidate == 1 && stogia == 1) //Stogia wins
   { 
+	ctsAchievement("Kept the Faith");
 	e.header = "<h2>Angeliki Stogia will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>Ever since Andy Burnham’s run was ended, the question of if Labour could defend this seat hung in the air, but you arose to the occasion and were able to answer that question. You’ve risen from relative obscurity to Labour’s newest MP against some difficult adversity. Many in the party abandoned hope once they found out Burnham wasn’t running, but you managed to persevere regardless.</p><p>From here, you enter Parliament as a Labour MP, and it’s up to you where in the party you want to position yourself. Two paths present themselves, either loyalty to Starmer, or aligning yourself with deputy leader Lucy Powell. She’s a Manchester woman like you are. </p><p>Prime Minister Starmer breathes a sigh of relief. He can only think, with you winning, how good it was.</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Stogia%20Win.png";
@@ -14952,11 +14954,15 @@ endingConstructor = (a = 1) => {
   }
   return construct(0);
   }
+}
+
   //Achievements
 function ctsAchievement(achievement, difficultyChecker = true){
 		if(campaignTrail_temp.CTS){
 		unlockAchievement(achievement);
 	}
+	}
+	/*
 if (aa[0].candidate == 1 && stogia == 0 && campaignTrail_temp.difficulty_level_multiplier <=1) {
 ctsAchievement("Feel the Burn");
 }
@@ -14972,14 +14978,14 @@ ctsAchievement("King of the North");
 if (aa[0].candidate == 1 && ans == 23301 && campaignTrail_temp.difficulty_level_multiplier <=1) {
 ctsAchievement("It's Starmover");
 }
-}
+*/
+
 //Rename candidates when the game starts for the end screen.
 if(stogia == 1){
 e.candidate_json[0].fields.first_name="Angeliki Stogia -";
 }
 else if(stogia == 0){
 e.candidate_json[0].fields.first_name="Andy Burnham -";
-}
 }
 e.multiple_endings = true;
 
