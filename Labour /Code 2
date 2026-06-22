@@ -14814,8 +14814,17 @@ endingConstructor = (a = 1) => {
   $("#final_results_description")[0].innerHTML = construct(a);
 }
   if (aa[0].candidate == 1 && stogia == 0) //Burnham wins
-  {
+  /*{
 	ctsAchievement("Feel the Burn");
+	if (pop_vote.find(p => p.pk === 1 >= 0.55)) //Get over 55% of the vote
+	{
+	ctsAchievement("King of the North"); 
+  }
+  	if (ans == 23301) //Throw Starmer under the bus and win
+	{
+	ctsAchievement("It's Starmover"); 
+  }
+ */
 	e.header = "<h2>Andy Burnham will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>Ever since you were given the green light from the Labour Party’s executive council to run, this was the expected outcome, but there were things along the way that could have gone wrong. However, with your confident campaign you’ve kept the campaign on the tracks to win the seat.</p><p>Where do you go from here? Do you keep your word about not challenging the Prime Minister and working with the party, or are your eyes set on entering Number 10 Downing Street? You are at the moment the most popular figure in the Labour party, so should Starmer fall, either from his own volition or you pushing him, you’re automatically the frontrunner to be the next Prime Minister.</p><p>Andy, in the end, it’s all up to you. Do you wish to take over the world?</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Burnham%20Win.png";
@@ -14856,7 +14865,7 @@ endingConstructor = (a = 1) => {
   return construct(0);
   }
   else if (aa[0].candidate == 2 && stogia == 0) //Goodwin wins (Burnham)
-  { 
+  { ctsAchievement("Burn-Out");
 	e.header = "<h2>Matt Goodwin will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>This… hurts. This should have been the coronation for the King of the North, the red carpet rolled out to Westminster, but it ends in tragedy. Everyone was looking at this expecting their beloved mayor to walk to an easy victory, but with the repeated scandals from the party, and their unwillingness to help your campaign, they threw it away for you, and instead, it’s a Reform MP who takes the seat.</p><p>A Reform victory in Gorton and Denton is a death blow to the current Labour party. Losing Runcorn and Helsby was the first blow, and this is an even harder blow. If even the King of the North was unable to overcome the nationwide deficit the party has accumulated, the situation is hopeless. Starmer must go.</p><p>So, defeat, it’s humiliation, this is how it feels.</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Matt%20Goodwin%20win.png";
@@ -14896,7 +14905,7 @@ endingConstructor = (a = 1) => {
   return construct(0);
   }
   else if (aa[0].candidate == 3 && stogia == 0) //Spencer wins (Burnham)
-	  { 
+	  { ctsAchievement("Burn-Out");
 	e.header = "<h2>Hannah Spencer will be the new MP for Gorton and Denton!</h2>"
 	e.pages = [`<p>This… hurts. This should have been the coronation for the King of the North, the red carpet rolled out to Westminster, but it ends in tragedy. Everyone was looking at this expecting their beloved mayor to walk to an easy victory, but with the repeated scandals from the party, and their unwillingness to help your campaign, they threw it away for you, and instead, it’s a Green MP who takes the seat.</p><p>The first ever Green victory in a by-election, and it came at the expense of Labour’s most popular figure.  If even the King of the North was unable to overcome the nationwide deficit the party has accumulated, the situation is hopeless. The King of the North was upstaged by a plumber. Starmer must go.</p><p>Even a working class hero couldn’t overcome this champagne supernova.</p>`]
 	e.image = "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Hannah%20Spencer%20win.png";
@@ -15042,6 +15051,8 @@ if(ans == 2102) {stogia = 1} //Early Burnham dropout
 if(ans == 3103) {stogia = 1} //NEC convinces Burnham to drop out
 if(ans == 4301 || ans == 4302 || ans == 4303) {stogia = 1} //NEC blocks Burnham from running
 
+if(ans == 4101 || ans == 4102 || ans == 4103){ctsAchievement("Cleared to Run"); //Burnham survives
+}
 //Labour Party support
 if (ans == 1101) {starmer +=2}
 if (ans == 1103) {starmer +=1}
