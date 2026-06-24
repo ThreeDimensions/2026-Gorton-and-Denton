@@ -649,7 +649,7 @@ campaignTrail_temp.answers_json = [
     },
     {
         "model": "campaign_trail.answer",
-        "pk": 13303,
+        "pk": 10303,
         "fields": {
             "question": 10300,
             "description": "We should press for an endorsement, if we get his support we can unite the progressive left behind us and then go on to win this by-election from a much stronger place."
@@ -22254,7 +22254,7 @@ function ctsAchievement(achievement, difficultyChecker = true){
 	}
 
 //Disable RNG (for testing)
-e.global_parameter_json[0].fields.global_variance=0
+//e.global_parameter_json[0].fields.global_variance=0
 
 e.candidate_json[0].fields.first_name="Angeliki Stogia -";
 e.candidate_json[0].fields.last_name="Labour";
