@@ -14816,7 +14816,7 @@ endingConstructor = (a = 1) => {
   if (aa[0].candidate == 1 && stogia == 0) //Burnham wins
 	{
 	ctsAchievement("Feel the Burn");
-	if (e.current_results[0] >= 0.55) //Get over 55% of the vote
+	if (quickstats[1] >= 55) //Get over 55% of the vote (Do better than Burnham did in Makerfield)
 	{
 	ctsAchievement("King of the North"); 
   }
@@ -16197,3 +16197,76 @@ construct = (a = 1) => {
   
   return html;
 }
+/*
+tooltipList = [
+	{searchString: "Andrew Gwynne", explanationText: "<img src=https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/Amber%20Rudd.png> Outgoing Labour MP for Gorton and Denton, his resignation kicked off this by-election campaign."},
+	{searchString: "Runcorn and Helsby", explanationText: "<img src=https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/Amber%20Rudd.png> Reform UK candidate Sarah Pochin won the 2025 Runcorn and Helsby by-election by a mere 6 votes."},
+	{searchString: "avoid any friction involving the Parliamentary party at all costs.", explanationText: "<img src=https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/Amber%20Rudd.png> Being able to run in this by-election is dependent on you getting approval from Labour's National Executive Committee (NEC)."},
+	{searchString: "Paul Dennett", explanationText: "<img src=https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/Amber%20Rudd.png> Paul Dennett is both the mayor of Salford and the Deputy Mayor of Greater Manchester"},
+	{searchString: "Lucy Powell", explanationText: "<img src=https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/Amber%20Rudd.png> Lucy Powell is the Deputy leader of the Labour Party, elected to the role after the resignation of Angela Rayner, as well as the MP for Manchester Central."},
+	{searchString: "Lisa Nandy", explanationText: "<img src=https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/Amber%20Rudd.png> Lisa Nandy is the MP for Wigan and was a Labour Leadership contender in the 2020 Labour Leadership election."},
+	{searchString: "Rebecca Long-Bailey", explanationText: "<img src=https://file.garden/Zmvf_kGfBgouz-z5/2017%20UK%20images/Amber%20Rudd.png> Rebecca Long-Bailey is the MP for Salford and Eccles and was a Labour leadership contender in the 2020 Labour leadership election. She represents the left wing of the Labour party."}];
+  
+    function getTooltips(str) {
+    let matches = [];
+
+    tooltipList.forEach((tooltip, index) => {
+        // Adjust the regex to match searchString potentially surrounded by “ and followed by optional punctuation
+       let regex = new RegExp(`(?<=\\b|\\s|^|“)${tooltip.searchString}(?=[.,;!?]?\\b|\\s|”|$)`, 'g');
+
+
+        let match;
+        while ((match = regex.exec(str)) !== null) {
+            matches.push({
+                start: match.index + (match[0].startsWith('“') ? 1 : 0), // Adjust for potential starting “
+                end: match.index + match[0].length - (match[0].endsWith('”') ? 1 : 0) - (match[2] ? 1 : 0), 
+                tooltipIndex: index
+            });
+        }
+    });
+
+    // Sort by starting position; if two start at the same position, longer match comes first
+    matches.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
+
+    // Filter out overlaps
+    for (let i = 0; i < matches.length - 1; ) {
+        if (matches[i + 1].start < matches[i].end) {
+            matches.splice(i + 1, 1); // Remove the next match since it overlaps
+        } else {
+            i++; // Move to next match
+        }
+    }
+
+    return matches;
+}
+//Tooltips
+function applyTooltips(str) {
+    const matches = getTooltips(str);
+    let result = '';
+    let lastIndex = 0;
+
+    matches.forEach(match => {
+        const tooltip = tooltipList[match.tooltipIndex];
+        result += str.slice(lastIndex, match.start);
+        result += `<span class='mytooltip'>${tooltip.searchString}<span class='mytooltiptext'>${tooltip.explanationText}</span></span>`;
+        lastIndex = match.end;
+    });
+
+    result += str.slice(lastIndex); // Add the remainder of the original string
+    return result;
+}
+
+function applyTooltipsToObject(obj) {
+    for (let key in obj) {
+        if (typeof obj[key] === 'string') {
+            obj[key] = applyTooltips(obj[key]);
+        } else if (typeof obj[key] === 'object') {
+            applyTooltipsToObject(obj[key]); // Recursive call
+        }
+    }
+}
+
+applyTooltipsToObject(campaignTrail_temp.questions_json);
+applyTooltipsToObject(campaignTrail_temp.answers_json);
+applyTooltipsToObject(campaignTrail_temp.answer_feedback_json);
+*/
