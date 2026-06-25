@@ -20826,7 +20826,7 @@ campaignTrail_temp.answer_feedback_json = [
         "fields": {
             "answer": 11201,
             "candidate": 3,
-            "answer_feedback": "This always works for you, compared to the non-existent profile of Angeliki Stogia and Nick Buckley, who didn’t even turn up to begin with. George Galloway however is always a character, and he gave you a run for your money."
+            "answer_feedback": "This always works for you, compared to the non-existent profile of Angeliki Stogia and Matt Goodwin, who didn’t even turn up to begin with. George Galloway however is always a character, and he gave you a run for your money."
         }
     },
 	{
@@ -22413,7 +22413,7 @@ TactVote = 0
 else if(LabourPolling + 0.05 < GreenPolling && ans < 16504){
 TactVote = 1
 }
-else if(GallowayOut = 0 && ans < 16504){
+else if(GallowayOut == 0 && ans < 16504){
 TactVote = 2
 }
 else if(ans < 16504){
@@ -22429,7 +22429,7 @@ TactVote = 0
 else if(LabourPolling < GreenPolling && ans < 16504){
 TactVote = 1
 }
-else if(GallowayOut = 0 && ans < 16504){
+else if(GallowayOut == 0 && ans < 16504){
 TactVote = 2
 }
 else if (ans < 16504){
