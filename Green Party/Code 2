@@ -668,7 +668,7 @@ campaignTrail_temp.answers_json = [
         "pk": 10402,
         "fields": {
             "question": 10400,
-            "description": "We have to have a united left wing movement and as long as Galloway is still in the race, we don’t have that, and at this point he seems like he’s certain in his intentions to stay in the race. We will have to double down on the blue collar aesthetic of this campaign that appeals with his voters. I’m a plumber, I’m comfortable with doing so"
+            "description": "We have to have a united left wing movement and as long as Galloway is still in the race, we don’t have that, and at this point he seems like he’s certain in his intentions to stay in the race. We will have to double down on the blue collar aesthetic of this campaign that appeals with his voters. I’m a plumber, I’m comfortable with doing so."
         }
     },
     {
@@ -5474,7 +5474,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6201,
             "candidate": 3,
             "affected_candidate": 12,
-            "global_multiplier": 0.27
+            "global_multiplier": 0.37
         }
     },
 	    {
@@ -5544,7 +5544,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 6202,
             "candidate": 3,
             "affected_candidate": 12,
-            "global_multiplier": 0.27
+            "global_multiplier": 0.37
         }
     },
 	    {
