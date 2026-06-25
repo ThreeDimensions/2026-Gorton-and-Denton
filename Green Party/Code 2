@@ -22034,6 +22034,7 @@ e.multiple_endings = true;
 var used = false;
 
 endingPicker = (out, totv, aa, quickstats) => {
+	
   //out = "win", "loss", or "tie" for your candidate
   //totv = total votes in entire election
   //aa = all final overall results data
@@ -22162,7 +22163,7 @@ endingConstructor = (a = 1) => {
   }
   else if (aa[0].candidate == 3 && galloway == 0) //Spencer wins (Spencer)
 	  { ctsAchievement("Make Hope Normal Again");
-  if (e.current_results[0] >= 0.4) //Get over 40% of the vote
+  if (quickstats[1] >= 40) //Get over 40% of the vote
 	{ ctsAchievement("Plumber Supremacy"); 
 	}
   if (TactVote !== 1) //Win despite not being the tactical vote
