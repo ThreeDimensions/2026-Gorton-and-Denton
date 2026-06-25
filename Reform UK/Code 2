@@ -18618,7 +18618,7 @@ if (ans == 9103) {WPB +=1}
 if (ans == 9104) {WPB +=3}
 
 //Log variables in console for testing
-console.log ("tory", tory, "| advance", advance, "| WPB", WPB, "| LabDebate", LabDebate, "| ReformDebate", ReformDebate, "| GreenDebate", GreenDebate);
+//console.log ("tory", tory, "| advance", advance, "| WPB", WPB, "| LabDebate", LabDebate, "| ReformDebate", ReformDebate, "| GreenDebate", GreenDebate);
 
 //Debate Strength Variables - Depending on salience of issues, affects the debate strength of candidates. If a candidate has at least 4, they are eligible for winning the debate. If no candidates have at least 4, or multiple candidates tie in debate strength, the debate concludes without a clear winner.
 
