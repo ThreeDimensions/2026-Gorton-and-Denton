@@ -546,7 +546,7 @@ campaignTrail_temp.achievements = {
     },
 	"Burn-Out" : {
     "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/Burn-Out.png",
-    "description" : "Lose the election as Andy Burnham (normal or easier",
+    "description" : "Lose the election as Andy Burnham (normal or easier)",
     "cannotBeCheated" : true
     },
 	"Cleared to Run" : {
@@ -556,7 +556,7 @@ campaignTrail_temp.achievements = {
     },	
 	"King of the North" : {
     "image" : "https://file.garden/Zmvf_kGfBgouz-z5/2026%20Gorton%20and%20Denton/King%20of%20the%20North.png",
-    "description" : "Win as Andy Burnham with over 55% of the vote",
+    "description" : "Win as Andy Burnham with a majority of the vote",
     "cannotBeCheated" : true
     },	
 	"It's Starmover" : {
