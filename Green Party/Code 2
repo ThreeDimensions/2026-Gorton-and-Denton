@@ -22404,9 +22404,9 @@ let GreenPolling = (pop_vote.find(p => p.pk === 3)).pvp
 let WPBPolling = (pop_vote.find(p => p.pk === 12)).pvp
 
 //Tactical vote determination code - Putting this at the top should make it so this gets determined before the tactical vote question is loaded. This gets locked after being decided so it doesn't mess with dependent variables later on.
-if(ReformPolling >= 0.3){
+if(ReformPolling >= 0.3 && ans < 16504){
         //Strong Reform UK polling check - Makes tactical vote organisations more likely to back Labour as the "safe option".
-if(LabourPolling + 0.05 > GreenPolling && LabourPolling + 0.05 > WPBPolling && ans < 16504){
+if(LabourPolling + 0.05 > GreenPolling && LabourPolling + 0.05 > WPBPolling){
         //In the event of Reform polling strongly, Labour will be endorsed with as much of a 5-point deficit on the Greens or WPB.
 TactVote = 0
 }
@@ -22421,7 +22421,7 @@ else if(ans < 16504){
 TactVote = 0
 }
 }
-else if(ReformPolling < 0.3){
+else if(ReformPolling < 0.3 && ans < 16504){
         //Fail the check, pure meritocracy
 if(LabourPolling > GreenPolling && LabourPolling > WPBPolling && ans < 16504){
 TactVote = 0
