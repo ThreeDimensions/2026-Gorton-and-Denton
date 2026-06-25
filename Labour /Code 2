@@ -14816,7 +14816,7 @@ endingConstructor = (a = 1) => {
   if (aa[0].candidate == 1 && stogia == 0) //Burnham wins
 	{
 	ctsAchievement("Feel the Burn");
-	if (quickstats[1] >= 55) //Get over 55% of the vote (Do better than Burnham did in Makerfield)
+	if (quickstats[1] >= 50) //Get a majority of the vote
 	{
 	ctsAchievement("King of the North"); 
   }
